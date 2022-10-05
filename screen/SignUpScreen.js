@@ -16,7 +16,7 @@ const SignUpScreen = ({navigation}) => {
             CAR MANAGE
           </Text>
           <Text
-            style={{fontWeight: 'bold', fontSize: 22, color: COLORS.secondary}}>
+            style={{fontWeight: 'bold', fontSize: 22, color: '#e89105'}}>
             HUB
           </Text>
         </View>
@@ -115,7 +115,7 @@ const SignUpScreen = ({navigation}) => {
             Already have an account ?
           </Text>
           <TouchableOpacity onPress={() => navigation.goBack()}>
-            <Text style={{color: COLORS.pink, fontWeight: 'bold'}}>
+            <Text style={{color: '#e89105', fontWeight: 'bold'}}>
               Sign in
             </Text>
           </TouchableOpacity>

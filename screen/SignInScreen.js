@@ -108,7 +108,7 @@ const SignInScreen = ({navigation}) => {
             Don`t have an account ?
           </Text>
           <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
-            <Text style={{color: COLORS.pink, fontWeight: 'bold'}}>
+            <Text style={{color: '#e89105', fontWeight: 'bold'}}>
               Sign up
             </Text>
           </TouchableOpacity>
